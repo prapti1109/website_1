@@ -1,0 +1,117 @@
+.container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    .image-container {
+      width: 200px; /* adjust the size as needed */
+      height: 200px; /* adjust the size as needed */
+      border-radius: 50%;
+      overflow: hidden;
+      margin-bottom: 10px; /* adjust the spacing as needed */
+    }
+    .image-container img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .image1-container {
+      display: flex;
+      justify-content: left;
+      margin-top: 100px; /* adjust the spacing as needed */
+    }
+    .image1-container img {
+      width: 350px; /* adjust the size as needed */
+      height: 350px; /* adjust the size as needed */
+      border-radius: 10px;
+      overflow: hidden;
+      object-fit: cover;
+    }
+    .cta-button {
+      font-family: 'Source Sans Pro', sans-serif;
+      font-size: 20px;
+      padding: 10px 20px;
+      background-color: #0000FF;
+      color: #FFFFFF;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .button-container {
+      display: flex;
+      justify-content: left;
+      margin-top: 50px;
+    }
+    .image2-container {
+      width: 350px; /* adjust the size as needed */
+      height: 350px; /* adjust the size as needed */
+      border-radius: 10px;
+      overflow: hidden;
+      margin-left: 235px; /* adjust the spacing as needed */
+	  
+    }
+    .image2-container img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+	  justify-content: center
+    }
+	.cta-button2 {
+      font-family: 'Source Sans Pro', sans-serif;
+      font-size: 20px;
+      padding: 10px 20px;
+      background-color: #0000FF;
+      color: #FFFFFF;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+	  margin-left: 370px;
+	  margin-bottom: 30px;
+    }
+    .button2-container {
+      display: flex;
+	  justify-content: center
+
+	  
+    }
+	.image3-container {
+      width: 350px; /* adjust the size as needed */
+      height: 350px; /* adjust the size as needed */
+      border-radius: 10px;
+      overflow: hidden;
+      margin-left: 235px;
+	  
+    }
+    .image3-container img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+	  justify-content: left;
+	}
+	.cta-button3 {
+      font-family: 'Source Sans Pro', sans-serif;
+      font-size: 20px;
+      padding: 10px 20px;
+      background-color: #0000FF;
+      color: #FFFFFF;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+	  margin-left: 350px;
+    }
+    .button3-container {
+      display: flex;
+	  justify-content: left
+	}
+	.dotted-line {
+	  display: flex;
+	  justify-content: center;
+	}
+	.dot {
+	  width: 6px;
+	  height: 6px;
+	  border-radius: 50%;
+	  background-color: black;
+	  margin: 0 4px;
+	}

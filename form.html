@@ -1,0 +1,93 @@
+<html>
+<head>
+<title>Registration Form</title>
+<style>
+hr {
+  border: none;
+  border-top: 1px dotted black;
+  margin: 20px 0;
+}
+</style>
+</head>
+<body bgcolor="lightblue">
+<h1><center>Registration Form</center></h1>
+
+<form>
+  <center>
+    <table border="0">
+      <tr>
+        <td width="12%">First Name</td>
+        <td width="1%">&nbsp;</td>
+        <td><input type="textbox" name="txtFirstName"></td>
+      </tr>
+      <tr>
+        <td>Middle Name</td>
+        <td>&nbsp;</td>
+        <td><input type="text box" name="txtMiddleName"></td>
+      </tr>
+      <tr>
+        <td>Last Name</td>
+        <td>&nbsp;</td>
+        <td><input type="text box" name="txtLastName"></td>
+      </tr>
+      <br>
+      <tr>
+        <td>Gender</td>
+        <td>&nbsp;</td>
+        <td>
+          <input type="radio" name="Gender" value="male" checked>Male
+          <input type="radio" name="Gender" value="female">Female
+        </td>
+      </tr>
+      <br>
+      <tr>
+        <td>Hobby</td>
+        <td>&nbsp;</td>
+        <td>
+          <input type="checkbox" name="chkSinging" value="Sing" checked>Singing
+          <input type="checkbox" name="chkDancing" value="Dance" checked>Dancing
+          <input type="checkbox" name="chkReading" value="Read" checked>Reading
+        </td>
+      </tr>
+      <br>
+      <tr>
+        <td>Address</td>
+        <td>&nbsp;</td>
+        <td>
+          <textarea name="txtAddress" rows="5" cols="70">Insert Address Here</textarea>
+        </td>
+      </tr>
+      <br>
+      <tr>
+        <td>City</td>
+        <td>&nbsp;</td>
+        <td>
+          <select name="cmbCity">
+            <option selected>Ahmedabad</option>
+            <option>New York</option>
+            <option>Bangalore</option>
+            <option>Paris</option>
+            <option>Chicago</option>
+            <option>Toronto</option>
+            <option>Tokyo</option>
+            <option>Abu Dhabi</option>
+          </select>
+        </td>
+      </tr>
+    </table>
+    <hr>
+    <table>
+      <tr>
+        <td>&nbsp;</td>
+        <td><input type="submit" value="Submit" onclick="alert('The form is submitted successfully');"></td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td><input type="reset" name="cmdReset" value="Reset"></td>
+      </tr>
+    </table>
+  </center>
+</form>
+
+</body>
+</html>
